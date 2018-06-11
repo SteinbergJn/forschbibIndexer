@@ -1,0 +1,13 @@
+.DS_Store
+*.pyc
+*.pyo
+*.log
+*.csv
+*.xlsx
+*.tmp
+*.bib
+build/
+dist/
+archive/
+__pycache__/
+
