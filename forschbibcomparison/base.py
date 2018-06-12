@@ -42,8 +42,12 @@ def countFiles(in_directory):
     )
 
 
-
-
+def checkForFolders():
+    os.makedirs(config.inputFileLocation, exist_ok=True)
+    os.makedirs(config.mappingsFileLocation, exist_ok=True)
+    os.makedirs(config.dataFileLocation, exist_ok=True)
+    os.makedirs(config.outputFileLocation, exist_ok=True)
+    os.makedirs(config.archiveFileLocation, exist_ok=True)
 
 
 def getScopusJournalList():

@@ -1,5 +1,8 @@
 inputFileLocation = "./input/"
 mappingsFileLocation = "./mappings/"
+dataFileLocation = "./data/"
+outputFileLocation = "./output/"
+archiveFileLocation = "./archive/"
 scopusJournalListUrl = "https://www.elsevier.com/?a=91122&origin=sbrowse&zone=TitleList&category=TitleListLink"
 sciJournalListUrl = "http://mjl.clarivate.com/cgi-bin/jrnlst/jlresults.cgi?PC=D&mode=print&Page="
 ssciJournalListUrl = "http://mjl.clarivate.com/cgi-bin/jrnlst/jlresults.cgi?PC=SS&mode=print&Page="
